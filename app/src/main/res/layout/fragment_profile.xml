@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#87E4DC"
+    tools:context=".Fragment.ProfileFragment">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="#87E4DC"
+        android:layout_gravity="center"
+        android:src="@drawable/header"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME  :-  Siddhu"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTECT  :-  +91 90345 ......"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E - MAIL  :-  sidhu...@gmail.com"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B-date  :-  20/3/1900"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
+
+</LinearLayout>
